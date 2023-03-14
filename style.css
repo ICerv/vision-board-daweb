@@ -6,8 +6,9 @@
 
 body {
   background: linear-gradient(#dffbfc, #d1b093);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
+  line-height: 1.6rem;
   height: 100vh;
 }
 
@@ -40,9 +41,8 @@ main {
 
 h1,
 h4 {
-  padding: 8px 0;
+  padding: 9px 0;
 }
-
 
 .icons {
   width: 1em;
@@ -64,16 +64,16 @@ a:hover {
   color: #1370ea;
 }
 
-
-ul,
 ol {
   list-style-type: none;
   font-size: 18px;
+}
 
+ul {
+  list-style-type: circle;
 }
 
 .expectations {
-  font-style: italic;
   margin-bottom: 10px;
 }
 
